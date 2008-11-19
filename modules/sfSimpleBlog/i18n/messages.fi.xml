@@ -1,0 +1,198 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+  <file orginal="global" source-language="en_US" datatype="plaintext">
+    <body>
+
+      <trans-unit>
+        <source>[0]no comment|[1]one comment|(1,+Inf]%1% comments</source>
+        <target>[0]Ei kommentteja|[1]Yksi kommentti|(1,+Inf]%1% kommenttia</target>
+      </trans-unit>
+      <trans-unit>
+        <source>[1]One comment so far|(1,+Inf]%1% comments so far</source>
+        <target>[1]Toistaiseksi yksi kommentti|(1,+Inf]%1% kommenttia</target>
+      </trans-unit>
+      <trans-unit>
+        <source>&lt; earlier posts</source>
+        <target>&lt; Uudemmat artikkelit</target>
+      </trans-unit>
+      <trans-unit>
+        <source>older posts &gt;</source>
+        <target>Vanhemmat artikkelit &gt;</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Comments</source>
+        <target>Kommentit</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Your comment has been submitted and is awaiting moderation</source>
+        <target>Kommenttisi on tallennettu ja odottaa ylläpidon hyväksyntää</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Posted by %1% on %2%</source>
+        <target>Lähettänyt %1% %2%</target>
+      </trans-unit>
+      <trans-unit>
+        <source>in %1%</source>
+        <target>aihealue %1%</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Posts tagged "%1%"</source>
+        <target>Artikkelit aihealueelta "%1%"</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Tags</source>
+        <target>Aihealueet</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Leave a reply</source>
+        <target>Lisää kommentti</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Name (required)</source>
+        <target>Nimi (pakollinen)</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Mail (required) (will not be published)</source>
+        <target>Sähköposti (pakollinen, mutta osoitetta ei näytetä julkisesti)</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Website</source>
+        <target>Kotisivut</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Submit comment</source>
+        <target>Lähetä kommenttisi</target>
+      </trans-unit>
+
+      <trans-unit>
+        <source>You must provide a name to leave a comment</source>
+        <target>Nimi on pakollinen tieto</target>
+      </trans-unit>
+      <trans-unit>
+        <source>You must provide a longer name (4 characters minimum)</source>
+        <target>Nimen tulee olla vähintään 4 merkkiä pitkä</target>
+      </trans-unit>
+      <trans-unit>
+        <source>You must provide a shorter name (100 characters minimum)</source>
+        <target>Antamasi nimi on liian pitkä (enintään 100 merkkiä).</target>
+      </trans-unit>
+      <trans-unit>
+        <source>You must provide an email to leave a comment</source>
+        <target>Sähköposti on pakollinen tieto</target>
+      </trans-unit>
+      <trans-unit>
+        <source>This email address is not valid</source>
+        <target>Antamasi sähköpostiosoite ei kelpaa</target>
+      </trans-unit>
+      <trans-unit>
+        <source>You must provide a text content to leave a comment</source>
+        <target>Kommentti ei voi olla tyhjä</target>
+      </trans-unit>
+      <trans-unit>
+        <source>You must provide a longer content (4 characters minimum)</source>
+        <target>Kommentin täytyy olla vähintään 4 merkkiä pitkä</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>Latest posts</source>
+        <target>Uusimmat artikkelit</target>
+      </trans-unit>    
+      <trans-unit>
+        <source>Blogroll</source>
+        <target>Blogilista</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Meta</source>
+        <target>Meta</target>
+      </trans-unit>          
+      <trans-unit>
+        <source>Admin</source>
+        <target>Ylläpito</target>
+      </trans-unit>
+      <trans-unit>
+        <source>symfony</source>
+        <target>symfony</target>
+      </trans-unit>          
+      <trans-unit>
+        <source>Posts from %1%</source>
+        <target>%1% julkaisemat artikkelit</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Comments from %1%</source>
+        <target>%1% kommentit</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Comments on post "%1%" from %2%</source>
+        <target>Kommentti viestiin "%1%", jonka on jättänyt %2%</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Posts tagged "%1%" from %2%</source>
+        <target>Artikkelit aihealueesta "%1%", jotka on kirjoittanut %2%</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Feeds</source>
+        <target>Syötteet</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>Posts (RSS)</source>
+        <target>Artikkelit (RSS)</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Posts (Atom)</source>
+        <target>Artikkelit (Atom)</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Comments (RSS)</source>
+        <target>Kommentit (RSS)</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Comments (Atom)</source>
+        <target>Kommentit (Atom)</target>
+      </trans-unit>
+      <trans-unit>
+        <source>[%1%] Please moderate: New comment on "%2%"</source>
+        <target>[%1%] Viestiin "%2%" on uusia kommentteja, jotka odottavat moderointia</target>
+      </trans-unit>
+      <trans-unit>
+        <source>[%1%] New comment on "%2%"</source>
+        <target>[%1%] Uusia kommentteja viestiin "%2%"</target>
+      </trans-unit>
+      <trans-unit>
+        <source>A new comment has been posted on the post "%1%".</source>
+        <target>Uusi kommentti viestiin "%1%".</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Author: </source>
+        <target>Kirjoittaja : </target>
+      </trans-unit>
+      <trans-unit>
+        <source>Email: </source>
+        <target>Sähköposti : </target>
+      </trans-unit>
+      <trans-unit>
+        <source>Website: </source>
+        <target>Kotisivut : </target>
+      </trans-unit>
+      <trans-unit>
+        <source>Comment: </source>
+        <target>Kommentti : </target>
+      </trans-unit>
+      <trans-unit>
+        <source>This comment was automatically moderated and is waiting for your approval.</source>
+        <target>Kommentti odottaa hyväksyntääsi.</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Accept this comment:</source>
+        <target>Hyväksy kommentti :</target>
+      </trans-unit>       
+      <trans-unit>
+        <source>Moderate this comment:</source>
+        <target>Hylkää kommentti :</target>
+      </trans-unit>       
+      <trans-unit>
+        <source>Comments are closed.</source>
+        <target>Kommentointi on suljettu.</target>
+      </trans-unit>      
+      
+    </body>
+  </file>
+</xliff>

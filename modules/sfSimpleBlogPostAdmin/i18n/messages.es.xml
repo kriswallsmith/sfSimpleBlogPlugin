@@ -1,0 +1,159 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+    <file orginal="global" source-language="en_US" datatype="plaintext">
+        <body>
+            <trans-unit>
+                <source>List of blog posts</source>
+                <target>Lista de posts</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Title</source>
+                <target>Título</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Created at</source>
+                <target>Fecha creación</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Extract</source>
+                <target>Extracto</target>
+            </trans-unit>
+            <trans-unit>
+                <source>%%_post%%</source>
+                <target>%%_post%%</target>
+            </trans-unit> 
+            <trans-unit>
+                <source>Posted by %1% on %2%, tagged %3%</source>
+                <target>Publicado por %1% el %2%, guardado en %3%</target>
+            </trans-unit>
+            <trans-unit>
+                <source>(not published)</source>
+                <target>(no publicado)</target>
+            </trans-unit>
+            <trans-unit>
+                <source>[0]no comment|[1]one comment|(1,+Inf]%1% comments</source>
+                <target>[0]sin comentarios|[1]un comentario|(1,+Inf]%1% comentarios</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Edit post "%%title%%"</source>
+                <target>Modificar post "%%title%%"</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Author:</source>
+                <target>Autor:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Title:</source>
+                <target>Título:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Extract:</source>
+                <target>Extracto:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Content:</source>
+                <target>Contenido:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Created at:</source>
+                <target>Fecha creación:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Tags:</source>
+                <target>Etiquetas:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Is published:</source>
+                <target>Publicado:</target>
+            </trans-unit>
+            <trans-unit>
+                <source>publish/unpublish</source>
+                <target>publicar/despublicar</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Administration</source>
+                <target>Administración</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Posts</source>
+                <target>Posts</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Comments</source>
+                <target>Comentarios</target>
+            </trans-unit>
+            <trans-unit>
+                <source>View blog</source>
+                <target>Ver blog</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Actions</source>
+                <target>Acciones</target>
+            </trans-unit>
+            <trans-unit>
+                <source>asc</source>
+                <target>asc</target>
+            </trans-unit>
+            <trans-unit>
+                <source>desc</source>
+                <target>desc</target>
+            </trans-unit>
+            <trans-unit>
+                <source>filters</source>
+                <target>filtros</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Your modifications have been saved</source>
+                <target>Los cambios se han guardado correctamente</target>
+            </trans-unit>
+            <trans-unit>
+                <source>create</source>
+                <target>crear</target>
+            </trans-unit>
+            <trans-unit>
+                <source>edit</source>
+                <target>modificar</target>
+            </trans-unit>
+            <trans-unit>
+                <source>delete</source>
+                <target>borrar</target>
+            </trans-unit>
+            <trans-unit>
+                <source>save</source>
+                <target>guardar</target>
+            </trans-unit>
+            <trans-unit>
+                <source>list</source>
+                <target>listar</target>
+            </trans-unit>
+            <trans-unit>
+                <source>reset</source>
+                <target>resetear</target>
+            </trans-unit>
+            <trans-unit>
+                <source>filter</source>
+                <target>filtrar</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Are you sure?</source>
+                <target>¿Estás seguro?</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Media Library</source>
+                <target>Archivos multimedia</target>
+            </trans-unit>
+            <trans-unit>
+                <source>enable/disable comments</source>
+                <target>habilitar/deshabilitar comentarios</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Comments closed</source>
+                <target>Ya no se pueden añadir comentarios</target>
+            </trans-unit>
+            <trans-unit>
+                <source>Allow comments:</source>
+                <target>Permitir comentarios:</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

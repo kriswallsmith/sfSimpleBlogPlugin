@@ -1,0 +1,67 @@
+package: sfSimpleBlogPlugin.lib.model.plugin
+sfSimpleBlogPost:
+  tableName: sf_blog_post
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    is_published:
+      type: integer(4)
+      default: 0
+    allow_comments:
+      type: integer(4)
+      default: 1
+    author_id: integer(4)
+    title: string(255)
+    stripped_title: string(255)
+    extract: string(2147483647)
+    content: string(2147483647)
+    created_at: timestamp(25)
+    published_at: date(25)
+  relations:
+    sfGuardUser: 
+      local: author_id
+      foreign: id
+      type: one
+    sfSimpleBlogTags:
+      class: sfSimpleBlogTag
+      local: id
+      foreign: sf_blog_post_id
+      type: many
+sfSimpleBlogComment:
+  tableName: sf_blog_comment
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    is_moderated:
+      type: integer(4)
+      default: 0
+    sf_blog_post_id: integer(4)
+    author_name: string(255)
+    author_email: string(255)
+    author_url: string(255)
+    content: string(2147483647)
+    created_at: timestamp(25)
+  relations:
+    sfSimpleBlogPost:
+      local: sf_blog_post_id
+      foreign: id
+      type: one
+sfSimpleBlogTag:
+  tableName: sf_blog_tag
+  columns:
+    sf_blog_post_id:
+      type: integer(4)
+      primary: true
+    tag:
+      type: string(255)
+      primary: true
+    created_at: timestamp(25)
+  relations:
+    sfSimpleBlogPost:
+      local: sf_blog_post_id
+      foreign: id
+      type: one

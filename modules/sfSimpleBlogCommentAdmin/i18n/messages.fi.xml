@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+  <file orginal="global" source-language="en_US" datatype="plaintext">
+    <body>
+
+      <trans-unit>
+        <source>List of comments</source>
+        <target>Listaa kommentit</target>
+      </trans-unit>    
+      <trans-unit>
+        <source>Author name:</source>
+        <target>Kirjoittaja:</target>
+      </trans-unit>    
+      <trans-unit>
+        <source>Author name</source>
+        <target>Kirjoittaja</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>Author email:</source>
+        <target>Sähköposti:</target>
+      </trans-unit>    
+      <trans-unit>
+        <source>Author email</source>
+        <target>Sähköposti</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>Author url:</source>
+        <target>Kotisivu:</target>
+      </trans-unit>    
+      <trans-unit>
+        <source>Author url</source>
+        <target>Kotisivu:</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>Content:</source>
+        <target>Sisältö</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>Content</source>
+        <target>Sisältö</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>Created at:</source>
+        <target>Luontiaika:</target>
+      </trans-unit>   
+      <trans-unit>
+        <source>Created at</source>
+        <target>Luontiaika</target>      
+      </trans-unit>
+      <trans-unit>
+        <source>Is moderated:</source>
+        <target>Moderoitu:</target>
+      </trans-unit>   
+      <trans-unit>
+        <source>Is moderated</source>
+        <target>Moderoitu</target>      
+      </trans-unit>
+      <trans-unit>
+        <source>%%_comment%%</source>
+        <target>%%_comment%%</target>      
+      </trans-unit>
+      <trans-unit>
+        <source>Posted on %2%, by %1% (%11%%12%)&lt;br/&gt;about &lt;b&gt;%3%&lt;/b&gt;</source>
+        <target>Kirjoittanut %1%, %2% (%11%%12%)&lt;br/&gt;aihe &lt;b&gt;%3%&lt;/b&gt;</target>      
+      </trans-unit>
+      <trans-unit>
+        <source>publish/unpublish</source>
+        <target>Julkaise/Vedä julkaisusta</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>Administration</source>
+        <target>Ylläpito</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>Posts</source>
+        <target>Artikkelit</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>Comments</source>
+        <target>Kommentit</target>
+      </trans-unit>      
+      <trans-unit>
+        <source>Media Library</source>
+        <target>Mediakirjasto</target>
+      </trans-unit>
+      <trans-unit>
+        <source>View blog</source>
+        <target>Näytä blogi</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Comment publication status toggled</source>
+        <target>Kommentin näkyvyys muutettu</target>
+      </trans-unit>
+      <trans-unit>
+        <source>The following comment has been moderated:</source>
+        <target>Seuraavat kommentit on moderoitu:</target>
+      </trans-unit>
+      <trans-unit>
+        <source>The following comment has been published:</source>
+        <target>Seuraavt kommentit ovat julkaistu:</target>
+      </trans-unit>
+
+            
+      <trans-unit>
+        <source>Actions</source>
+        <target>Toiminnot</target>
+      </trans-unit>    
+      <trans-unit>
+        <source>asc</source>
+        <target>laskeva</target>
+      </trans-unit>    
+      <trans-unit>
+        <source>desc</source>
+        <target>nouseva</target>
+      </trans-unit>    
+      <trans-unit>
+        <source>filters</source>
+        <target>Suodata</target>
+      </trans-unit>       
+      <trans-unit>
+        <source>Your modifications have been saved</source>
+        <target>Muutokset tallennettu</target>
+      </trans-unit>       
+      <trans-unit>
+        <source>create</source>
+        <target>lisää</target>
+      </trans-unit>
+      <trans-unit>
+        <source>edit</source>
+        <target>muokkaa</target>
+      </trans-unit>
+      <trans-unit>
+        <source>delete</source>
+        <target>poista</target>
+      </trans-unit>
+      <trans-unit>
+        <source>save</source>
+        <target>tallenna</target>
+      </trans-unit>
+      <trans-unit>
+        <source>list</source>
+        <target>listaa</target>
+      </trans-unit>  
+      <trans-unit>
+        <source>reset</source>
+        <target>tyhjennä</target>
+      </trans-unit>
+      <trans-unit>
+        <source>filter</source>
+        <target>suodata</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Are you sure?</source>
+        <target>Haluatko varmasti suorittaa toiminnon?</target>
+      </trans-unit>  
+    </body>
+  </file>
+</xliff>
