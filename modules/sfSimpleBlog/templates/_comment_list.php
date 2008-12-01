@@ -5,8 +5,8 @@
 
 <?php if(!sfConfig::get('app_sfSimpleBlog_comment_enabled', true) || !$post->allowComments()): ?>
   <div class="related_details"><?php echo __('Comments are closed.') ?></div>
-<?php elseif($sf_flash->get('add_comment') == 'moderated'): ?>
+<?php elseif($sf_user->getFlash('add_comment') == 'moderated'): ?>
   <div class="comment moderated"><?php echo __('Your comment has been submitted and is awaiting moderation') ?></div>
-<?php elseif($sf_flash->get('add_comment') != 'normal'): ?>
+<?php elseif($sf_user->getFlash('add_comment') != 'normal'): ?>
   <?php include_partial('sfSimpleBlog/add_comment', array('post' => $post)) ?>
 <?php endif; ?>

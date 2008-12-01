@@ -6,7 +6,7 @@ class BasesfSimpleBlogPostAdminActions extends autosfSimpleBlogPostAdminActions
   {
     if(sfConfig::get('app_sfSimpleBlog_use_bundled_layout', true))
     {
-      $this->setLayout(sfLoader::getTemplateDir('sfSimpleBlog', 'layout.php').'/layout');
+      $this->setLayout(ProjectConfiguration::getActive()->getTemplateDir('sfSimpleBlog', 'layout.php').'/layout');
     }
   }
 

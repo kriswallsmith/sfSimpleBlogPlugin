@@ -18,7 +18,7 @@
         <?php include_slot('sfSimpleBlog_sidebar') ?>
       </div>
       <div id="content" >
-        <?php echo $sf_data->getRaw('content') ?>
+        <?php echo $sf_data->getRaw('sf_content') ?>
       </div>
       <div id="footer"></div>
     </div>

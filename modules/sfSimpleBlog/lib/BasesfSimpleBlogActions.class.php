@@ -22,7 +22,7 @@ class BasesfSimpleBlogActions extends sfActions
   {
     if(sfConfig::get('app_sfSimpleBlog_use_bundled_layout', true))
     {
-      $this->setLayout(sfLoader::getTemplateDir('sfSimpleBlog', 'layout.php').'/layout');
+      $this->setLayout(ProjectConfiguration::getActive()->getTemplateDir('sfSimpleBlog', 'layout.php').'/layout');
       $this->getResponse()->addStylesheet('/sfSimpleBlogPlugin/css/blog.css');
     }
   }
@@ -164,11 +164,11 @@ class BasesfSimpleBlogActions extends sfActions
     if($automoderation === true || (($automoderation == 'first_post') && !DbFinder::from('sfSimpleBlogComment')->isAuthorApproved($this->getRequestParameter('name'),$this->getRequestParameter('mail'))))
     {
       $comment->setIsModerated(true);
-      $this->setFlash('add_comment', 'moderated');
+      $this->getUser()->setFlash('add_comment', 'moderated');
     }
     else
     {
-      $this->setFlash('add_comment', 'normal'); 
+      $this->getUser()->setFlash('add_comment', 'normal'); 
     }
     $comment->setAuthorName($this->getRequestParameter('name'));
     $comment->setAuthorEmail($this->getRequestParameter('mail'));
@@ -187,7 +187,7 @@ class BasesfSimpleBlogActions extends sfActions
     if($email_pref == 1 || ($email_pref == 'moderated' && $comment->getIsModerated()))
     {
       $this->getRequest()->setAttribute('comment', $comment);
-      $raw_email = $this->sendEmail('sfSimpleBlog', 'sendMailOnComment');  
+      $raw_email = $this->getController()->getPresentationFor('sfSimpleBlog', 'sendMailOnComment', 'sfMail');
       $this->logMessage($raw_email, 'debug');
     }
     
