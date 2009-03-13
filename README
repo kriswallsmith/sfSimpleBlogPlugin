@@ -60,6 +60,10 @@ Clear the cache to enable the autoloading to find the new classes:
 
     $ php symfony cc
 
+Make sure that behaviors are enabled in the project `config/propel.ini`:
+
+    propel.builder.addBehaviors = true
+
 Rebuild the model and generate the SQL code for the three new tables:
 
     $ php symfony propel-build-model
