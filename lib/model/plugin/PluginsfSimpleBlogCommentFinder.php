@@ -1,6 +1,6 @@
 <?php
 
-class PluginsfSimpleBlogCommentFinder extends Dbfinder
+class PluginsfSimpleBlogCommentFinder extends DbFinder
 {
   protected $class = 'sfSimpleBlogComment';
   
