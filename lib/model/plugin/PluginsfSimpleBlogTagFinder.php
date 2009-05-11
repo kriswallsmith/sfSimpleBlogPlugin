@@ -1,6 +1,6 @@
 <?php
 
-class PluginsfSimpleBlogTagFinder extends Dbfinder
+class PluginsfSimpleBlogTagFinder extends DbFinder
 {
   protected $class = 'sfSimpleBlogTag';
 

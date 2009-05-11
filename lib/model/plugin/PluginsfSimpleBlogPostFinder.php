@@ -1,6 +1,6 @@
 <?php
 
-class PluginsfSimpleBlogPostFinder extends Dbfinder
+class PluginsfSimpleBlogPostFinder extends DbFinder
 {
   protected $class = 'sfSimpleBlogPost';
 
@@ -23,7 +23,7 @@ class PluginsfSimpleBlogPostFinder extends Dbfinder
   {
     return $this->
       leftJoin('sfSimpleBlogComment c')->
-      withColumn('COUNT(sfSimpleBlogComment.Id)', 'NbComments')->
+      withColumn('COUNT(c.Id)', 'NbComments')->
       where('c.IsModerated', false)->
       groupBy('c.SfBlogPostId');
   }
