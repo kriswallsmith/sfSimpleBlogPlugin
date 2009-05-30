@@ -19,7 +19,7 @@ class PluginsfSimpleBlogPost extends BasesfSimpleBlogPost
     }
     else
     {
-      $this->rawSet('title', $text);
+      method_exists($this, 'rawSet') ? $this->rawSet('title', $text) : $this->_set('title', $text);
     }
 
     $this->setStrippedTitle(sfSimpleBlogTools::stripText($text)); 
@@ -129,7 +129,7 @@ class PluginsfSimpleBlogPost extends BasesfSimpleBlogPost
     }
     else
     {
-      $this->rawSet('is_published', $flag);
+      method_exists($this, 'rawSet') ? $this->rawSet('is_published', $flag) : $this->_set('is_published', $flag);
     }
   }
 
